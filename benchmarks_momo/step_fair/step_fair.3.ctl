@@ -1,0 +1,5 @@
+EF(EG~p2)
+AG(~p2 | (AX(AFp0)))
+AG(~p1 | (AX(AFp2)))
+AG(~p0 | (AX(AFp1)))
+AG(AFp0)

@@ -1,0 +1,3 @@
+AG(AFp2)
+AG(AFp1)
+AG(AFp0)

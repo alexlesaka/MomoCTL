@@ -14,11 +14,11 @@ nohup java -Xss512m -jar momo_console.jar <directory/file path> [OPTIONAL]*
 
 #### OPTIONAL
 
-/exportTable -> export a file where result-table is shown.
-/exportResults -> export a file where a model or a proof is shown.
-/tableFileName:<filename> -> configure the output file name where table is shown as <filename>.
-/resultsFileName:<filename> -> configure the output file name where results are shown as <filename>.
-/timeoutTime:<number_of_minutes> -> configure the timeout time. Default value: 1000 (segs)
+- /exportTable -> export a file where result-table is shown.
+- /exportResults -> export a file where a model or a proof is shown.
+- /tableFileName:<filename> -> configure the output file name where table is shown as <filename>.
+- /resultsFileName:<filename> -> configure the output file name where results are shown as <filename>.
+- /timeoutTime:<number_of_minutes> -> configure the timeout time. Default value: 1000 (segs)
 
 
 ###  Considerations when executing

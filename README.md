@@ -1,10 +1,18 @@
-# Momo Concole 
+# MomoCTL 
 
-## Main COMMAND
+## Content of the repository
+
+1. <Dir> Dafny_Momo_CTL: Dafny files of MomoCTL used to compile java code. 
+2. <Dir> Benchmarcs_Momo: source benchmark for momo_console.jar
+3. <Jar> momo_console_v<version>.jar: Java runtime jar.  
+
+## Execute Momo_Console
+
+### Main COMMAND
 
 nohup java -Xss512m -jar momo_console.jar <directory/file path> [OPTIONAL]*
 
-### OPTIONAL
+#### OPTIONAL
 
 /exportTable -> export a file where result-table is shown.
 /exportResults -> export a file where a model or a proof is shown.
@@ -13,7 +21,7 @@ nohup java -Xss512m -jar momo_console.jar <directory/file path> [OPTIONAL]*
 /timeoutTime:<number_of_minutes> -> configure the timeout time. Default value: 1000 (segs)
 
 
-##  Considerations when executing
+###  Considerations when executing
 
 Warning: If you don't use nohup and you close the session, the execution stops.
 
@@ -26,7 +34,7 @@ ps xa | grep java
 4. To continue using the command promp while the programm is executed, writhe & at the end of the execution call: 
 <command> &
 
-## Examples
+### Examples
 ```
 nohup java -Xss1G -jar momo_console.jar ./benchmarks_momo/reskill /exportTable &
 nohup java -jar -Xss1G momo_console.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  

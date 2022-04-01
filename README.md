@@ -4,7 +4,7 @@
 
 1. \<Dir\> Dafny_Momo_CTL: Dafny files of MomoCTL used to compile java code. 
 2. \<Dir\> Benchmarcs_Momo: source benchmark for momo_console.jar
-3. \<Jar\> momo_console_v<version>.jar: Java runtime jar.  
+3. \<Jar\> momo_console_v<version>.jar: Java runtime jar.  Please, use last version 3.3.
 
 ## Execute Momo_Console
 

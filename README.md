@@ -36,8 +36,8 @@ ps xa | grep java
 
 ### Examples
 ```
-nohup java -Xss1G -jar momo_console.jar ./benchmarks_momo/reskill /exportTable &
-nohup java -jar -Xss1G momo_console.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
+nohup java -Xss1G -jar momo_console_3_3.jar ./benchmarks_momo/reskill /exportTable &
+nohup java -jar -Xss1G momo_console_3_3.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
 nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
 
 nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out &

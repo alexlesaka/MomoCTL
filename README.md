@@ -38,10 +38,10 @@ ps xa | grep java
 ```
 nohup java -Xss1G -jar momo_console.jar ./benchmarks_momo/reskill /exportTable &
 nohup java -jar -Xss1G momo_console.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
-nohup java -jar -Xss512m momo_console_2_1.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
 
-nohup java -jar -Xss512m momo_console_3_0.jar ./benchmarks_momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out &
-nohup java -jar -Xss512m momo_console_3_1.jar ./benchmarks_momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out & 
-nohup java -jar -Xss512m momo_console_3_2.jar ./benchmarks_momo/montali_sat1/ /exportTable /tableFileName:running_output/montali_sat1_table > /montali_sat1.out &   
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out &
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out & 
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/montali_sat1/ /exportTable /tableFileName:running_output/montali_sat1_table > /montali_sat1.out &   
 
 ```

@@ -45,3 +45,7 @@ nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/exp_unsat/ /expo
 nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/montali_sat1/ /exportTable /tableFileName:running_output/montali_sat1_table > /montali_sat1.out &   
 
 ```
+
+### An example of model as output
+![busproc1-model](https://user-images.githubusercontent.com/23459019/161607179-d1466e93-1c96-49cd-b2f4-0331550775a6.JPG)
+ 

@@ -52,7 +52,7 @@ java -jar -Xss512m momo_console_3_3.jar <file address>
 ### Example of Model: busproc1.ctl
 ![busproc1-model](https://user-images.githubusercontent.com/23459019/161607179-d1466e93-1c96-49cd-b2f4-0331550775a6.JPG)
  
- ### Example of Proof: montali_unsat1.11.ctl
+ ### Example of Small-step Proof: montali_unsat1.11.ctl
  ![montali_unsat1 11-proof](https://user-images.githubusercontent.com/23459019/161710262-79b8c631-6c64-422a-80d4-259ae6df84df.JPG)
 
  

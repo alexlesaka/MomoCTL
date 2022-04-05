@@ -2,8 +2,8 @@
 
 ## Content of the repository
 
-1. \<Dir\> Dafny_Momo_CTL: Dafny files of MomoCTL used to compile java code. 
-2. \<Dir\> Benchmarcs_Momo: source benchmark for momo_console.jar
+1. \<Dir\> Dafny_MomoCTL_3_3: Dafny files of MomoCTL used to compile java code for momo_console_3_3.jar. 
+2. \<Dir\> Benchmarcs_Momo_3_3.zip: source benchmarks for momoCTL.
 3. \<Jar\> momo_console_v<version>.jar: Java runtime jar.  Please, use last version 3.3.
 
 ## Execute Momo_Console

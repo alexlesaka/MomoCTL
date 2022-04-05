@@ -53,6 +53,7 @@ java -jar -Xss512m momo_console_3_3.jar <file address>
 ![busproc1-model](https://user-images.githubusercontent.com/23459019/161607179-d1466e93-1c96-49cd-b2f4-0331550775a6.JPG)
  
  ### Example of Small-step Proof: montali_unsat1.11.ctl
- ![montali_unsat1 11-proof](https://user-images.githubusercontent.com/23459019/161710262-79b8c631-6c64-422a-80d4-259ae6df84df.JPG)
+![montali_unsat1 11-proof](https://user-images.githubusercontent.com/23459019/161712469-c267cdd8-7a9c-43a7-a367-666b5dbd822d.JPG)
+
 
  

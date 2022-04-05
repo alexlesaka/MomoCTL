@@ -1,3 +1,0 @@
-AFp2
-AFp1
-AFp0

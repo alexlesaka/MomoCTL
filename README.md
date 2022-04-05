@@ -52,8 +52,9 @@ java -jar -Xss512m momo_console_3_3.jar file-address
 ### Example of model: busproc1.ctl
 ![busproc1-model](https://user-images.githubusercontent.com/23459019/161607179-d1466e93-1c96-49cd-b2f4-0331550775a6.JPG)
  
- ### Example of small-step proof: 
-
+ ### Example of small-step proof: step_induction.2.ctl
+ ![step_induction 2-Proof](https://user-images.githubusercontent.com/23459019/161727561-e727a597-aaf1-460d-a032-3bf3e71b4056.JPG)
+ 
 
 
  

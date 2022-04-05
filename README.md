@@ -36,18 +36,18 @@ ps xa | grep java
 
 ### Examples
 ```
-nohup java -Xss1G -jar momo_console_3_3.jar ./benchmarks_momo/reskill /exportTable &
-nohup java -jar -Xss1G momo_console_3_3.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
-nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/<path>/ /exportTable > <output_log_title>.out &  
+nohup java -Xss1G -jar momo_console_3_3.jar ./benchmarks_Momo/reskill /exportTable &
+nohup java -jar -Xss1G momo_console_3_3.jar ./benchmarks_Momo/<path>/ /exportTable > <output_log_title>.out &  
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_Momo/<path>/ /exportTable > <output_log_title>.out &  
 
-nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out &
-nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out & 
-nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_momo/montali_sat1/ /exportTable /tableFileName:running_output/montali_sat1_table > /montali_sat1.out &   
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_Momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out &
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_Momo/exp_unsat/ /exportTable > ./running_output/exp_unsat.out & 
+nohup java -jar -Xss512m momo_console_3_3.jar ./benchmarks_Momo/montali_sat1/ /exportTable /tableFileName:running_output/montali_sat1_table > /montali_sat1.out &   
 
 ```
  
 ### Models and Proofs
-java -jar -Xss512m momo_console_3_3.jar <file address>
+java -jar -Xss512m momo_console_3_3.jar file-address
 
 ### Example of Model: busproc1.ctl
 ![busproc1-model](https://user-images.githubusercontent.com/23459019/161607179-d1466e93-1c96-49cd-b2f4-0331550775a6.JPG)
